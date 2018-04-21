@@ -17,5 +17,7 @@ def speak_to_grandma(phrase)
   
   if phrase!= phrase.upcase
     phrase = phrase.upcase
+    return phrase
   end
+  
 end
